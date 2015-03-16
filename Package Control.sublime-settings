@@ -5,6 +5,10 @@
 	"installed_packages":
 	[
 		"Emmet",
-		"Package Control"
+		"FreeMarker",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"PackageResourceViewer",
+		"Pretty JSON"
 	]
 }

@@ -1,5 +1,5 @@
 Sublime Text 3 Settings
-===============++======
+=======================
 
 These are personal settings for ST3. **Use at your own risk**.
 

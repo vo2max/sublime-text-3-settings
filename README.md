@@ -136,6 +136,13 @@ Key Bindings
 |Auto-format tags on selection | ctrl+alt+f|
 |Rename tag shortcut (single quote) | ctrl+alt+'|
 
+Development
+-----------
+
+#### Running a Local Web Server
+- [Mongoose](https://code.google.com/p/mongoose/)
+- [TinyWeb](https://www.ritlabs.com/en/products/tinyweb/)
+
 References
 ----------
 

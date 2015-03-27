@@ -16,24 +16,22 @@ Installation
 
 1. Navigate to the Sublime Text 3 Packages directory.
    ```
-   cd /Users/[USER]/AppData/Roaming/Sublime\ Text\ 3/Packages/
+   cd /Users/[USER]/AppData/Roaming/Sublime\ Text\ 3/Packages/User/
    ```
 
-2. Clone the repository's .git folder into a empty temporary directory.
+2. Define the remote repository.
    ```
-   git clone https://github.com/vo2max/sublime-text-settings.git User/UserTmp
+   git remote add origin https://github.com/vo2max/sublime-text-3-settings.git
+   ```   
+
+3. Download the remote files into our local repository.
+   ```
+   git fetch
    ```
 
-3. Move the .git folder to the `User` directory. This makes the `User` directory a git repo. Then, delete the temporary directory.
+4. Overwrite the existing Sublime Text 3 settings with those from the repository. **To prevent loss of local changes, 'commit' or 'stash' prior to resetting the state.**
    ```
-   mv User/UserTmp/.git User/
-   rm -rf User/UserTmp
-   ```
-
-4. Revert the state of the local repo to HEAD (git believes the local files are deleted). **This will overwrite any local changes.**
-   ``` 
-   cd User
-   git reset --hard HEAD
+   git reset --hard origin/master
    ```
 
 #### <i class="icon-folder-open"></i> GIT (via TortoiseSVN)
@@ -46,8 +44,8 @@ Installation
 2. Checkout the repository into the `User` directory.
    ```
    SVN Checkout... -> 
-   Repo: https://github.com/vo2max/sublime-text-settings.git/trunk
-   Checkout dir: C:\Users\[USER]\AppData\Roaming\Sublime Text 2\Packages\User\
+   Repo: https://github.com/vo2max/sublime-text-3-settings.git/trunk
+   Checkout dir: C:\Users\[USER]\AppData\Roaming\Sublime Text 3\Packages\User\
    ```
 
 3. Confirm prompt for export into a non-empty folder.

@@ -1,7 +1,11 @@
-Package Control.ca-certs/
-Package Control.cache/
+Package Control.cache/**
 
-Package Control.ca-bundle
-Package Control.ca-list
+Gist.sublime-settings
 Package Control.last-run
-Package Control.system-ca-bundle
+Package Control.sublime-settings
+Side Bar.sublime-settings
+
+*.cache
+*.log
+*.pyc
+*.sublime-workspace

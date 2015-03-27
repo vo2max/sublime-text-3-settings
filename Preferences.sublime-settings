@@ -1,7 +1,13 @@
 {
 	"color_scheme": "Packages/User/Sunburst (Modified).tmTheme",
+	"font_size": 10,
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"soda_classic_tabs": true,
+	"spell_check": true,
+	"tab_size": 4,
+	"theme": "Soda Dark.sublime-theme",
+	"word_wrap": false	
 }
